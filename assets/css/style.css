@@ -1,0 +1,89 @@
+body {
+    background-image:url(../Images/pow-star.png);
+    overflow-y:scroll;
+    font-family: 'Chela One', cursive;
+}
+
+.instructions{
+   text-align: center;
+   padding: 10px;
+   width: 900px;
+   margin-left: 20%;
+   font-size: 32px;
+   border: 5px solid rgb(100, 15, 15)
+}
+
+#character-input {
+    position: relative;
+    width: 200px;
+    margin: 35px;
+    left: 34%;
+    border: 5px solid black;
+    font-family: 'Chela One', cursive;
+    font-size: 26px;
+}
+
+#character-input:hover{
+    box-shadow: 10px 10px 5px 0px rgb(6, 81, 6);
+}
+
+#add-character {
+    position: relative;
+    left: 36%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 26px;
+    font-family: 'Chela One', cursive;
+}
+
+#add-character:hover{
+    box-shadow: 10px 10px 5px 0px rgb(6, 81, 6);
+}
+
+.header {
+    text-align: center;
+    font-size: 80px;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.buttons button {  
+    position: relative;
+    font-size: 24px;
+    margin: 10px;
+    font-family: 'Chela One', cursive;
+    border: 5px dashed orangered;
+}
+
+.buttons button:hover{
+    cursor:pointer;
+    box-shadow: 10px 10px 5px 0px cadetblue;
+}
+
+.gifs {
+    display: inline-flex;
+    margin-left: 8%;
+    position: absolute;
+}
+
+.gifRating{
+    margin-top:-28px;
+    margin-right: -60px;
+    margin-left: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.imgSize {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    border: 5px solid black;
+}
+
+.imgSize:hover {
+    animation: all .2s;
+    box-shadow: 0px 0px 55px rgb(91, 5, 5);
+    cursor: pointer;
+}
