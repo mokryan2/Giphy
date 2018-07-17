@@ -19,7 +19,6 @@ $(document).ready(function () {
     function APILoop() {
         $(".buttons button").click(function () {
             userChoice = $(this).text();
-            console.log(userChoice);
             $(".gifs").empty();
 
 
@@ -29,8 +28,6 @@ $(document).ready(function () {
                 url: queryURL,
                 method: "GET"
             }).then(function (response) {
-                console.log(queryURL);
-                console.table(response);
                 //Render 5 GIFs after clicking the button + pause/start
                 for (var i = 0; i < 5; i++) {
                     $(".gifs").append("<div class='gifRating'>Rating: " + response.data[i].rating + "</div>");
@@ -65,7 +62,6 @@ $(document).ready(function () {
         }
         else {
             character.push(addCharacter);
-            console.log(character);
             createButtons();
             document.forms["character-form"].reset();
         }

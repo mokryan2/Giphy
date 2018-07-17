@@ -87,3 +87,146 @@ body {
     box-shadow: 0px 0px 55px rgb(91, 5, 5);
     cursor: pointer;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1295px) {
+    .instructions{
+        width: 1000px;
+        margin-left: 9.5%;
+    }
+    
+    #character-input{
+        margin-left:-2%;
+        margin-right: 3%
+    }
+    .gifs{
+        display: flex;
+        flex-direction: column;
+        margin: 45px;
+        position: absolute;
+        left: 48%;
+        margin-left: -75px;  
+    }
+    .gifRating{
+        margin-left:-20%;
+    }
+}
+@media screen and (max-width: 990px) {
+    .instructions{
+        width: 800px;
+        margin-left: 7%;
+    }
+    
+    #character-input{
+        margin-left:-10%;
+        margin-right: 3%
+    }
+    .gifs{
+        display: flex;
+        flex-direction: column;
+        margin: 45px;
+        position: absolute;
+        left: 48%;
+        margin-left: -75px;  
+    }
+    .gifRating{
+        margin-left:-20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .instructions{
+        width: 650px;
+        margin-left: 3%;
+    }
+    
+    #character-input{
+        margin-left:-17%;
+        margin-right: 3%
+    }
+    .gifs{
+        display: flex;
+        flex-direction: column;
+        margin: 45px;
+        position: absolute;
+        left: 48%;
+        margin-left: -75px;  
+    }
+    .gifRating{
+        margin-left:-20%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .instructions{
+        width: 580px;
+        margin-left: 3%;
+    }
+    
+    #character-input{
+        margin-left:-17%;
+        margin-right: 3%
+    }
+    .gifs{
+        display: flex;
+        flex-direction: column;
+        margin: 45px;
+        position: absolute;
+        left: 48%;
+        margin-left: -75px;  
+    }
+    .gifRating{
+        margin-left:-20%;
+    }
+}
+@media screen and (max-width: 500px){
+
+    .instructions{
+        width: 400px;
+        margin-left: 3%;
+        overflow: hidden;
+    }
+
+    #character-input{
+        margin-left:-30%;
+        margin-right: -2%
+    }
+    .gifs{
+        display: flex;
+        flex-direction: column;
+        margin: 45px;
+        position: absolute;
+        left: 44%;
+        margin-left: -75px;  
+    }
+    .gifRating{
+        margin-left:-20%;
+    }
+}
+@media screen and (max-width: 320px){
+    .header{
+        margin-left:1%;
+    }
+    .instructions{
+        width: 260px;
+        margin-left: .5%;
+    }
+    
+    #character-input{
+        margin-left:-21%;
+        margin-right: -2%
+    }
+    #add-character{
+        margin-left: -22%;
+    }
+    .gifs{
+        display: flex;
+        flex-direction: column;
+        margin: 45px;
+        position: absolute;
+        left: 41%;
+        margin-left: -75px;  
+    }
+    .gifRating{
+        margin-left:-20%;
+    }
+    }
