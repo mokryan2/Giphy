@@ -91,7 +91,7 @@ body {
 /* Media Queries */
 @media screen and (max-width: 1295px) {
     .instructions{
-        width: 1000px;
+        width: 90%;
         margin-left: 9.5%;
     }
     
@@ -113,7 +113,7 @@ body {
 }
 @media screen and (max-width: 990px) {
     .instructions{
-        width: 800px;
+        width: 90%;
         margin-left: 7%;
     }
     
@@ -136,7 +136,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .instructions{
-        width: 650px;
+        width: 90%;
         margin-left: 3%;
     }
     
@@ -158,7 +158,7 @@ body {
 }
 @media screen and (max-width: 680px) {
     .instructions{
-        width: 580px;
+        width: 90%;
         margin-left: 3%;
     }
     
@@ -181,7 +181,7 @@ body {
 @media screen and (max-width: 500px){
 
     .instructions{
-        width: 400px;
+        width: 90%;
         margin-left: 3%;
         overflow: hidden;
     }
@@ -207,7 +207,7 @@ body {
         margin-left:1%;
     }
     .instructions{
-        width: 260px;
+        width: 90%;
         margin-left: .5%;
     }
     
