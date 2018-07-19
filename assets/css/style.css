@@ -114,7 +114,7 @@ body {
 @media screen and (max-width: 990px) {
     .instructions{
         width: 90%;
-        margin-left: 4%;
+        margin-left: 7%;
     }
     
     #character-input{
@@ -182,7 +182,7 @@ body {
 
     .instructions{
         width: 90%;
-        margin-left: 2%;
+        margin-left: 3%;
         overflow: hidden;
     }
 
