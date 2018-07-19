@@ -163,7 +163,7 @@ body {
     }
     
     #character-input{
-        margin-left:-17%;
+        margin-left:-26%;
         margin-right: 3%
     }
     .gifs{
@@ -212,11 +212,11 @@ body {
     }
     
     #character-input{
-        margin-left:-21%;
+        margin-left:-15%;
         margin-right: -2%
     }
     #add-character{
-        margin-left: -22%;
+        margin-left: -19%;
     }
     .gifs{
         display: flex;
