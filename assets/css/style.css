@@ -17,7 +17,7 @@ body {
     position: relative;
     width: 200px;
     margin: 35px;
-    left: 34%;
+    left: 31%;
     border: 5px solid black;
     font-family: 'Chela One', cursive;
     font-size: 26px;
@@ -29,7 +29,7 @@ body {
 
 #add-character {
     position: relative;
-    left: 36%;
+    left: 33%;
     margin-top: 10px;
     margin-bottom: 40px;
     font-size: 26px;
@@ -163,7 +163,7 @@ body {
     }
     
     #character-input{
-        margin-left:-26%;
+        margin-left:-16%;
         margin-right: 3%
     }
     .gifs{
