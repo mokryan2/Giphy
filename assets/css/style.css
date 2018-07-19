@@ -181,8 +181,8 @@ body {
 @media screen and (max-width: 500px){
 
     .instructions{
-        width: 90%x;
-        margin-left: 2%;
+        width: 400px;
+        margin-left: 3%;
         overflow: hidden;
     }
 
@@ -207,7 +207,7 @@ body {
         margin-left:1%;
     }
     .instructions{
-        width: 90%;
+        width: 260px;
         margin-left: .5%;
     }
     
